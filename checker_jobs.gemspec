@@ -28,7 +28,7 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency "net-ftp"
   # spec.add_development_dependency "pronto"
   # spec.add_development_dependency "pronto-rubocop"
-  # spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "pry-byebug"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.10"
   spec.add_development_dependency "rubocop"
