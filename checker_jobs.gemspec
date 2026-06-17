@@ -25,7 +25,6 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency "bugsnag"
   spec.add_development_dependency "bundler"
   # spec.add_development_dependency "mailcatcher"
-  spec.add_development_dependency "net-ftp"
   # spec.add_development_dependency "pronto"
   # spec.add_development_dependency "pronto-rubocop"
   spec.add_development_dependency "pry-byebug"
