@@ -6,11 +6,10 @@ require "bugsnag"
 require "checker_jobs"
 require "pry-byebug"
 require "sidekiq"
-require "sidekiq/testing"
 
 ActionMailer::Base.delivery_method = :test
 
-Sidekiq::Testing.inline!
+Sidekiq.testing!(:inline)
 
 Bugsnag.configure do |config|
   # This API key is completely fake, it shouldn't be used.
